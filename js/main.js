@@ -75,3 +75,45 @@ prev.onclick = () => {
 }
 
 autoSlider(index)
+
+//Основы асинхронности
+
+//Синхроный код
+//console.log(1);
+//console.log(2);
+//console.log(3);
+
+//Асинхронный код
+
+//setTimeout(() => {
+    //console.log('Ok');
+    //}, 1000)
+
+//console.log('2');
+//console.log('3');
+
+// let seconds = 0
+// const interval = setInterval(() =>{
+//     seconds++
+//     console.log(seconds);
+// }, 1000)
+//
+// setTimeout(() => {
+//     clearInterval(interval)
+// }, 5000)
+
+// Event Loop - Цикл событий
+
+// setTimeout(() => {
+//     console.log('1');
+// }, 1000)
+//
+// console.log('2');
+
+// const button = document.querySelector('#btn')
+// button.onclick = () => {
+//     setTimeout(() => {
+//         console.log(1);
+//     }, 1000)
+// }
+// console.log(2);
