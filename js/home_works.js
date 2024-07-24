@@ -84,8 +84,9 @@ resetTimer.onclick = ()  => {
     interval = null
     second = 0
     seconds.innerHTML = '0'
-
 }
+
+
 
 
 
